@@ -43,7 +43,7 @@ a new state to each events:
      prn))
 ```
 
-## Release Example:
+## Release Example
 
 ```sh
 github-release release \
