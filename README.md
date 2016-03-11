@@ -45,6 +45,8 @@ a new state to each events:
 
 ## Release Example
 
+How to release using https://github.com/aktau/github-release
+
 ```sh
 github-release release \
     --user rastandy \
