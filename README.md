@@ -42,3 +42,21 @@ a new state to each events:
   (smap (threshold-check thresholds)
      prn))
 ```
+
+## Release Example:
+
+github-release release \
+    --user rastandy \
+    --repo riemann-extra \
+    --tag v-1.0 \
+    --name "Riemann Extra release" \
+    --description "My own release of riemann-extra  from pyr on github" \
+    --pre-release
+
+
+github-release upload \
+    --user rastandy \
+    --repo riemann-extra \
+    --tag v-1.0 \
+    --name "riemann-extra.jar" \
+    --file target/riemann-extra-0.2.4.jar
