@@ -45,6 +45,7 @@ a new state to each events:
 
 ## Release Example:
 
+```sh
 github-release release \
     --user rastandy \
     --repo riemann-extra \
@@ -60,3 +61,4 @@ github-release upload \
     --tag v-1.0 \
     --name "riemann-extra.jar" \
     --file target/riemann-extra-0.2.4.jar
+```
